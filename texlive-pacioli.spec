@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /fonts/pacioli
+# catalog-date 2007-10-10 11:06:37 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-pacioli
 Version:	20071010
 Release:	1
@@ -57,6 +63,7 @@ lowercase or digits. The MetaFont source is distributed in a
 #- source
 %doc %{_texmfdistdir}/source/latex/pacioli/pacioli.dtx
 %doc %{_texmfdistdir}/source/latex/pacioli/pacioli.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -67,3 +74,5 @@ lowercase or digits. The MetaFont source is distributed in a
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
