@@ -1,12 +1,12 @@
-# revision 15878
+# revision 24947
 # category Package
 # catalog-ctan /fonts/pacioli
-# catalog-date 2007-10-10 11:06:37 +0200
+# catalog-date 2011-06-16 21:20:53 +0200
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-pacioli
-Version:	20071010
-Release:	2
+Version:	20110616
+Release:	1
 Summary:	Fonts designed by Fra Luca de Pacioli in 1497
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/pacioli
@@ -23,7 +23,7 @@ Requires(post):	texlive-kpathsea
 Pacioli was a c.15 mathematician, and his font was designed
 according to 'the divine proportion'. The font is uppercase
 letters together with punctuation and some analphabetics; no
-lowercase or digits. The MetaFont source is distributed in a
+lowercase or digits. The Metafont source is distributed in a
 .dtx file, together with LaTeX support.
 
 %post
@@ -49,10 +49,11 @@ lowercase or digits. The MetaFont source is distributed in a
 %{_texmfdistdir}/tex/latex/pacioli/pacioli.sty
 %{_texmfdistdir}/tex/latex/pacioli/t1cpc.fd
 %doc %{_texmfdistdir}/doc/fonts/pacioli/README
+%doc %{_texmfdistdir}/doc/fonts/pacioli/tryfont.ps
 %doc %{_texmfdistdir}/doc/fonts/pacioli/tryfont.tex
 #- source
-%doc %{_texmfdistdir}/source/latex/pacioli/pacioli.dtx
-%doc %{_texmfdistdir}/source/latex/pacioli/pacioli.ins
+%doc %{_texmfdistdir}/source/fonts/pacioli/pacioli.dtx
+%doc %{_texmfdistdir}/source/fonts/pacioli/pacioli.ins
 
 #-----------------------------------------------------------------------
 %prep
