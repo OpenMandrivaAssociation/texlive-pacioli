@@ -64,3 +64,21 @@ lowercase or digits. The Metafont source is distributed in a
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Mon Jan 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110616-1
++ Revision: 758993
+- Update to latest upstream release
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20071010-2
++ Revision: 754615
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20071010-1
++ Revision: 719177
+- texlive-pacioli
+- texlive-pacioli
+- texlive-pacioli
+- texlive-pacioli
+
