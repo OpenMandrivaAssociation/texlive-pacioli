@@ -3,7 +3,7 @@ Version:	24947
 Release:	2
 Summary:	Fonts designed by Fra Luca de Pacioli in 1497
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/pacioli
+URL:		https://www.ctan.org/tex-archive/fonts/pacioli
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pacioli.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pacioli.doc.r%{version}.tar.xz
