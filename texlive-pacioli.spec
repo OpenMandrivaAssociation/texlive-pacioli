@@ -1,6 +1,6 @@
 Name:		texlive-pacioli
-Version:	24947
-Release:	2
+Version:	77677
+Release:	1
 Summary:	Fonts designed by Fra Luca de Pacioli in 1497
 Group:		Publishing
 URL:		https://www.ctan.org/tex-archive/fonts/pacioli
